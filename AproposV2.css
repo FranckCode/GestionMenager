@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+
+  ul.breadcrumbs {
+    list-style: none;
+   
+  }
+  ul.breadcrumbs li {
+    display: inline;
+    font-size: 18px;
+    color: rgba(0, 0, 255, 0.534);
+  }
+ul.breadcrumbs li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+} 
+ 
+ul.breadcrumbs li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.nav{
+  width: 100%;
+}
+
+#video,#band,#tab{
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#uses{
+  position: relative;
+  bottom: 7px;
+  border: 3px solid orange;
+  width: 5%;
+}
+
+#myVideo {
+  position: relative;
+  bottom: 5px;
+  height: fit-content;
+  width: 100%;
+}
+  /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+em{
+  color:  orange;
+}
+
+#tabn {
+  overflow: hidden;
+  /* background-color: #f1f1f1; */
+  width: 70%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+  
+  /* Style the tab content */
+.tabcontent {
+  display: none;
+  /* border: 1px solid #ccc; */
+  padding-left: 50px;
+  padding-right: 50px;
+  border-top: none;
+}
+
+#ancre a{
+  color: orange;  
+}
+  
