@@ -1,0 +1,177 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link ref="stylesheet" href="index.css"> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <h2 align="center">Contact</h2>
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h2 align="center">Liens</h2>
+          <ul>
+            <li> > <a href="#"> Acceuil</a></li>
+            <li> > <a href="#"> A Propos</a></li>
+            <li> > <a href="#"> FAQ</a></li>
+            <li> > <a href="#"> S'incire</a></li>
+            <li> > <a href="#"> Connexiom</a></li>
+
+          </ul>
+        </div>
+        <div class=" icons col-lg-4 col-md-4">
+          <h2 align="center">Nous Suivre Sur</h2>
+          <hr>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </div>
+      <p align="center">© 2019 - Mybabysister privacy policy</p>
+    </div>
+  </footer>
+
+  <style>
+    footer{
+      position: relative;
+      top: 40%;
+      background-color: rgba(0, 0, 0, 0.76);
+    }
+    
+    footer label,footer p{
+      color: rgba(255, 255, 255, 0.637);
+    }
+    
+    footer h2{
+      color: white;
+    }
+    
+    footer li{
+      list-style-type: none;
+      margin-top: 30px;
+      color: rgba(255, 255, 255, 0.637);
+    }
+    
+    footer li a{
+      color: white;
+    }
+    
+    footer li a:hover{
+      color: #FFA500;
+    }
+    
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      height: 30px;
+      padding: 12px;
+      color:black;
+      border: 1px solid rgba(204, 204, 204, 0.979);
+      background-color: rgba(204, 204, 204, 0.979);
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #FF8C00;
+      color: black;
+      font-size: 1.2em;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    input[type=submit]:hover {
+      background-color: rgba(255, 140, 0, 0.788);
+    }
+    /* 
+    footer .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    } */
+    
+    footer .fa {
+      padding: 8px;
+      font-size: 20px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    footer .icons a{
+      position: relative;
+      left: 20%;
+    
+    }
+    
+    footer .fa:hover {
+        opacity: 0.7;
+    }
+    
+    footer .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    footer .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    footer .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+    footer .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    footer .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    footer .fa-skype {
+      background: #00aff0;
+      color: white;
+    }
+
+    hr{
+  width: 15%;
+  border-bottom: #FF8C00 solid 6px;
+}
+    
+    </style>          
